@@ -11,9 +11,6 @@ endif
 all:
 	make -C $(WORKDIR) $@
 
-clean:
-	-rm -fr $(WORKDIR)
-
 distclean:
 	-rm -fr $(TARBALL)
 
